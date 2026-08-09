@@ -11,8 +11,7 @@ user_height = float(input("Укажите ваш рост (в метрах, на
 bmi = user_weight / (user_height ** 2)
 bmi = round(bmi, 1)
 
-water_ml = user_weight * 30
-water_l = water_ml / 1000
+water_l = (user_weight * 30) / 1000
 
 print(f"Отчет для пользователя: {user_name} ({user_age} лет)")
 print(f"Ваш Индекс Массы Тела: {bmi}")
